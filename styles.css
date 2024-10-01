@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header{
+    background-color: rgb(107, 94, 94);
+    padding: 2px;
+    color: white;
+}
+
+#FormVailidation{
+    /* justify-content: center; */
+    text-align: center;
+    box-shadow: 1px 2px 20px 2px rebeccapurple;
+    padding: 2%;
+    margin: 2% ;
+    margin-top: 50px;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"]{
+    justify-content: center;
+    /* text-align: center; */
+
+    width: 250px; 
+    margin: 5px;
+    /* box-sizing: 50px; */
+    /* inline-size:; */
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(123, 99, 99);
+    padding: 30px;
+    margin-block-start: 100%;
+}
+
+
+@media screen {
+    form{
+        direction: column;
+    }
+}
